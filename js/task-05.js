@@ -1,6 +1,6 @@
 const refs = {
-  input: document.querySelector(`.js-input`),
-  outputLable: document.querySelector(`.js-output`),
+  input: document.querySelector(`#name-input`),
+  outputLable: document.querySelector(`#name-output`),
 };
 
 refs.input.addEventListener(`input`, onInputChange);
